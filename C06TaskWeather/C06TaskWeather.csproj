@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{641265D6-91B0-49DC-A044-BA231AFBE045}</ProjectGuid>
+    <ProjectGuid>{EF15D22C-B9BD-4FD3-A005-AE3425B7CE5C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C05EX_TextManager</RootNamespace>
-    <AssemblyName>C05EX_TextManager</AssemblyName>
+    <RootNamespace>C06TaskWeather</RootNamespace>
+    <AssemblyName>C06TaskWeather</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TextManager.cs" />
+    <Compile Include="WeatherManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

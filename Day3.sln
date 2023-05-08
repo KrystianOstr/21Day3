@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C05EX_TextManager", "C05EX_TextManager\C05EX_TextManager.csproj", "{641265D6-91B0-49DC-A044-BA231AFBE045}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C06TaskWeather", "C06TaskWeather\C06TaskWeather.csproj", "{EF15D22C-B9BD-4FD3-A005-AE3425B7CE5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{641265D6-91B0-49DC-A044-BA231AFBE045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641265D6-91B0-49DC-A044-BA231AFBE045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641265D6-91B0-49DC-A044-BA231AFBE045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF15D22C-B9BD-4FD3-A005-AE3425B7CE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF15D22C-B9BD-4FD3-A005-AE3425B7CE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF15D22C-B9BD-4FD3-A005-AE3425B7CE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF15D22C-B9BD-4FD3-A005-AE3425B7CE5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
