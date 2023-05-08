@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C07Enumerators
+namespace C08PropertiesAndFields
 {
 
     enum Unit
@@ -17,31 +17,33 @@ namespace C07Enumerators
 
     internal class WeatherManager
     {
-       
+        public string SearchChar { get; } = "°"; // readonly property 
+        public string EndChar { get; set; } = ">"; // full access property 
+
+        // private field 
+        private string address = $"https://www.google.com/search?q=weather+";
+
 
         public double GetTemperature(string city, Unit unit)
         {
             // char onlyOneCharacter = 'a';
 
-            string searchChar = "°";
-            string endChar = ">";
-
-
+         
             //  Console.WriteLine("Enter the city name");
             //   string city = Console.ReadLine();
 
-            string address = $"https://www.google.com/search?q=weather+{city}";
+            
 
             WebClient wc = new WebClient();
-            string data = wc.DownloadString(address);
+            string data = wc.DownloadString(address + city);
 
             try
             {
-                int index = data.IndexOf(searchChar);
+                int index = data.IndexOf(SearchChar);
                 int currentPosition = index;
                 int iterationCount = 0;
 
-                while (data.Substring(currentPosition, 1) != endChar)
+                while (data.Substring(currentPosition, 1) != EndChar)
                 {
                     iterationCount++;
                     currentPosition--;
