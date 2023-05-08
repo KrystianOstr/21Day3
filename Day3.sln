@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C05EX_TextManager", "C05EX_TextManager\C05EX_TextManager.csproj", "{641265D6-91B0-49DC-A044-BA231AFBE045}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{641265D6-91B0-49DC-A044-BA231AFBE045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641265D6-91B0-49DC-A044-BA231AFBE045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641265D6-91B0-49DC-A044-BA231AFBE045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641265D6-91B0-49DC-A044-BA231AFBE045}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EC35A49-F7E5-4F94-A68C-573DED1B7E41}
+	EndGlobalSection
+EndGlobal
