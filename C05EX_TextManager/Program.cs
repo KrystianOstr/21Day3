@@ -10,7 +10,7 @@ namespace C05EX_TextManager
     {
         static void Main(string[] args)
         {
-
+            // add comment 
         }
     }
 }
