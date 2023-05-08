@@ -23,7 +23,11 @@ namespace C10Constructors
 
             Console.WriteLine("------ example 2 ------");
 
+            WeatherManager weatherManager = new WeatherManager(Unit.Kelvin);
+            
+            weatherManager.GetTemperature("warsaw");
 
+            weatherManager.GetTemperature("singapore");
         }
     }
 }

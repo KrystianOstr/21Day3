@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B5B0FD9-C044-4E78-A506-8D08A4E5CB95}</ProjectGuid>
+    <ProjectGuid>{DD8CCC9E-FB60-4142-BC91-4A56A78A6480}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C10Constructors</RootNamespace>
-    <AssemblyName>C10Constructors</AssemblyName>
+    <RootNamespace>D04Libraries</RootNamespace>
+    <AssemblyName>D04Libraries</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeatherManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\D04TestingLibrary\D04TestingLibrary.csproj">
+      <Project>{39b1012e-61ec-48c1-9538-bc05b2a72e1c}</Project>
+      <Name>D04TestingLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

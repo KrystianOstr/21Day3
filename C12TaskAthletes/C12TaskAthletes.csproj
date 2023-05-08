@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B5B0FD9-C044-4E78-A506-8D08A4E5CB95}</ProjectGuid>
+    <ProjectGuid>{944DD9CB-3221-4546-B2A4-440B073C015D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C10Constructors</RootNamespace>
-    <AssemblyName>C10Constructors</AssemblyName>
+    <RootNamespace>C12TaskAthletes</RootNamespace>
+    <AssemblyName>C12TaskAthletes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeatherManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

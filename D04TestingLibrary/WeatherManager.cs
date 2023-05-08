@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 namespace C10Constructors
 {
 
-    enum Unit
+    public enum Unit
     {
         Celsius,
         Kelvin ,
         Fahrenheit 
     }
 
-    internal class WeatherManager
+    public class WeatherManager
     {
         internal string SearchChar { get; } = "°"; // readonly property 
         public string EndChar { get; set; } = ">"; // full access property 
