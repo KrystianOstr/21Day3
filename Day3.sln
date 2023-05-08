@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C11TaskLibrary", "C11TaskLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C12TaskAthletes", "C12TaskAthletes\C12TaskAthletes.csproj", "{944DD9CB-3221-4546-B2A4-440B073C015D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C10Inheritence", "C10Inheritence\C10Inheritence.csproj", "{3CD8CF00-5B79-415E-85A0-BB1CBD4048C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C10Casting", "C10Casting\C10Casting.csproj", "{D5BC0609-CDA2-467C-A5B9-3D90426F9EA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{944DD9CB-3221-4546-B2A4-440B073C015D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{944DD9CB-3221-4546-B2A4-440B073C015D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{944DD9CB-3221-4546-B2A4-440B073C015D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD8CF00-5B79-415E-85A0-BB1CBD4048C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD8CF00-5B79-415E-85A0-BB1CBD4048C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD8CF00-5B79-415E-85A0-BB1CBD4048C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD8CF00-5B79-415E-85A0-BB1CBD4048C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BC0609-CDA2-467C-A5B9-3D90426F9EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BC0609-CDA2-467C-A5B9-3D90426F9EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BC0609-CDA2-467C-A5B9-3D90426F9EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BC0609-CDA2-467C-A5B9-3D90426F9EA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

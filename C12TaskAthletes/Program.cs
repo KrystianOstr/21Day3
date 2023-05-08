@@ -10,6 +10,15 @@ namespace C12TaskAthletes
     {
         static void Main(string[] args)
         {
+            PlayerManager playerManager = new PlayerManager();
+            Player[] players = playerManager.LoadPlayers();
+
+            foreach (Player player in players) 
+            {
+                Console.WriteLine(player.FullName);
+            }
+
+            Console.ReadKey();
         }
     }
 }

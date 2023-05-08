@@ -21,5 +21,13 @@ namespace C12TaskAthletes
         public int Height { get; set; }
 
         public int Width { get; set; }
+
+        public string FullName
+        {
+            get
+            {
+                return FirstName + " " + LastName;
+            }
+        }
     }
 }
